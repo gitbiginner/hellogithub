@@ -1,0 +1,51 @@
+git 
+
+$git init
+ -git initialize git preparation
+
+$git add index.html
+ -git decision  of a sharing file
+
+$git commit -m　"Create（メッセージ）index.html"
+ -　record selected file  
+>> "" only when using commit command 
+
+
+
+			リモート
+
+upload		↗		　　↘	download
+
+にんじゃわんこ　			ひつじ仙人
+
+
+$git remote add orgin https://prog-8.com/mysite.git 
+- git upload register (にんじゃわんこ　→　リモートに登録)
+
+$git push origin master
+-git upload file : push (にんじゃわんこ　→　リモートにファイルアップロード)
+
+$git pull origin master
+-git download file : pull (リモート　→　ひつじ仙人にファイルをダウンロード)
+
+$git status
+- confirm modified file (red color)
+
+$git diff
+- confirm change content(red/green color)
+
+$git remote add origin（リモート名） https：//⋯(リモートURL)
+- register remote (for uploading)
+
+$git push origin master
+-*
+
+$git pull origin master
+-*
+
+$git log
+- watch history of commit message
+
+$git log -p
+- watch history of commit content
+
